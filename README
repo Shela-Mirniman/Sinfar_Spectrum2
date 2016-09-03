@@ -1,0 +1,14 @@
+This plugin is a sinfar chat to xmpp backend plugin.
+Its mean to be used with spectrum2 http://spectrum.im/
+By copying this repository in the backend folder
+Modifying CMakeLists.txt in backend folder by adding an  ADD_SUBDIRECTORY(folder_name) after ADD_SUBDIRECTORY(template)
+Follow spectrum2 instruction to compile.
+
+
+Feature
+---------
+
+- Has all sinfar channel + All channel as xmpp muc.
+- Allow use of chat shortcut /tp and other. This feature is not well tested.
+- Has all online user as participant of muc chat.
+- Has online status for all legacy user.
